@@ -10,4 +10,8 @@
     <string name="dayVictory">Hoje é dia de vitória</string>
     <string name="iconcardgame">iconCardGame</string>
     <string name="Ranked">Ranqueada</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="schedule_matches">Partidas agendadas</string>
+    <string name="total_matches">Total 6</string>
 </resources>

@@ -13,5 +13,9 @@
         android:fontStyle="normal"
         android:font="@font/rajdhanimedium"
         />
+    <font
+        android:fontStyle="normal"
+        android:font="@font/inter_regular"
+        />
 
 </font-family>
