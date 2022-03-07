@@ -15,4 +15,10 @@
     <string name="schedule_matches">Partidas agendadas</string>
     <string name="total_matches">Total 6</string>
     <string name="image_content_match">Image Content Match</string>
+    <string name="legends">Lendários</string>
+    <string name="ranked">Ranqueada</string>
+    <string name="lol">League of Legends</string>
+    <string name="icon">Icon Calendar</string>
+    <string name="date_and_hour">Sex 18/06 às 21:00h</string>
+    <string name="quantity_player">3</string>
 </resources>
