@@ -36,9 +36,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/ScheduledMatches"
-        android:layout_marginTop="40dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem=""
+        tools:listitem="@layout/card_list_matches"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
