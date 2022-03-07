@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GamePlay</string>
+    <string name="image_background">Image Background</string>
+    <string name="connecting">Conecte-se \ne organize suas \njogatinas</string>
+    <string name="gammingText">Crie grupos para jogar seus games\nfavoritos com seus amigos</string>
+    <string name="discord">Entrar Com Discord</string>
+    <string name="icon_user">Icon User</string>
+    <string name="hello">Olá,</string>
+    <string name="caique">Caique</string>
+    <string name="dayVictory">Hoje é dia de vitória</string>
+    <string name="iconcardgame">iconCardGame</string>
+    <string name="Ranked">Ranqueada</string>
+</resources>

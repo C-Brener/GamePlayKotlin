@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Brands  -->
+    <color name="primary">#E51C44</color>
+    <color name="secondary">#495BCC</color>
+    <color name="background">#0E1647</color>
+
+<!--    Texts -->
+    <color name="heading">#DDE3F0</color>
+    <color name="body">#ABB1CC</color>
+
+<!--    Shapes -->
+    <color name="boxes">#1D2766</color>
+    <color name="strokes">#243189</color>
+
+    <color name="online">#32BD50</color>
+    <color name="occupied">#D07622</color>
+    <color name="unavailable">#E51C44</color>
+
+</resources>
