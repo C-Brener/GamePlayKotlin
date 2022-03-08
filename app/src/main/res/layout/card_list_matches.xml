@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="8dp"
-
+    android:layout_marginVertical="22dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        >
         <ImageView
             android:id="@+id/imageContentMatch"
             android:layout_width="64dp"
@@ -16,7 +18,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:src="@drawable/lol_icon"
-            android:layout_marginVertical="33dp"
             />
         <TextView
             android:id="@+id/nameMatch"
@@ -24,7 +25,6 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/imageContentMatch"
-            android:layout_marginTop="33dp"
             android:layout_marginStart="20dp"
             android:textSize="18sp"
             android:fontFamily="@font/rajdhani_bold"
@@ -37,7 +37,6 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="33dp"
             android:layout_marginEnd="29dp"
             android:fontFamily="@font/inter_regular"
             android:textSize="13sp"
@@ -93,6 +92,7 @@
         android:text="@string/quantity_player"
         />
         <ImageView
+            android:id="@+id/iconUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toStartOf="@id/playerQuantity"
@@ -100,6 +100,17 @@
             android:layout_marginTop="32dp"
             android:layout_marginHorizontal="8dp"
             android:src="@drawable/ic_icon_user"
-            />
+            android:contentDescription="@string/iconuser" />
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/iconUser"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_line"
+            android:layout_marginStart="60dp"
+            android:contentDescription="@string/line" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

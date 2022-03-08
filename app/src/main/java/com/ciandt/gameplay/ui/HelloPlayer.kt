@@ -1,5 +1,6 @@
 package com.ciandt.gameplay.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -17,6 +18,10 @@ class HelloPlayer : AppCompatActivity() {
         val imageView = binding.iconUser
         setImage(url)
 
+        binding.addNewGame.setOnClickListener {
+            val intent = Intent(this,ScheduleMatchesActivity::class.java)
+            startActivity(intent)
+        }
 
     }
     private fun setImage(url:String){

@@ -21,4 +21,6 @@
     <string name="icon">Icon Calendar</string>
     <string name="date_and_hour">Sex 18/06 às 21:00h</string>
     <string name="quantity_player">3</string>
+    <string name="iconuser">iconUser</string>
+    <string name="line">line</string>
 </resources>

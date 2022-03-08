@@ -8,9 +8,10 @@
         <entry key="app/src/main/res/drawable/ranked.xml" value="0.141" />
         <entry key="app/src/main/res/font-v26/fontes.xml" value="0.2611111111111111" />
         <entry key="app/src/main/res/font/fontes.xml" value="0.2015625" />
-        <entry key="app/src/main/res/layout/activity_hello_player.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/activity_hello_player.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17135416666666667" />
-        <entry key="app/src/main/res/layout/card_list_matches.xml" value="0.43333333333333335" />
+        <entry key="app/src/main/res/layout/activity_schedule_matches.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/card_list_matches.xml" value="0.1" />
         <entry key="app/src/main/res/layout/cards.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/layout/fragment_list_match_game.xml" value="0.33" />
       </map>
