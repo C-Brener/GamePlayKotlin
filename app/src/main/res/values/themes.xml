@@ -13,4 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="StatusBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/strokes</item>
+    </style>
 </resources>
