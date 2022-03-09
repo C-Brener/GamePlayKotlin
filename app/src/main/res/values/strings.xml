@@ -25,4 +25,5 @@
     <string name="line">line</string>
     <string name="lef_arrow_icon">lef arrow icon</string>
     <string name="schedule">Agendar partida</string>
+    <string name="category">Categoria</string>
 </resources>
