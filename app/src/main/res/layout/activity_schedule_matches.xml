@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
+    android:paddingHorizontal="24dp"
     tools:context=".ui.ScheduleMatchesActivity">
 
     <ImageButton
         android:id="@+id/backScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/lef_arrow_icon"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
     <TextView
-        android:id="@+id/matchSheduleTitle"
+        android:id="@+id/matchScheduleTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,9 +35,8 @@
     <TextView
         android:id="@+id/categoryTitle"
         android:layout_marginTop="52dp"
-        android:layout_marginStart="24dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/matchSheduleTitle"
+        app:layout_constraintTop_toBottomOf="@id/matchScheduleTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/category"
@@ -57,5 +56,25 @@
         app:layout_constraintTop_toBottomOf="@id/categoryTitle"
         android:layout_marginTop="12dp"
         tools:listitem="@layout/cards" />
+
+    <Button
+        android:id="@+id/button_select_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/select_server"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardList" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_list_games"
+        android:tag="fragment_list_games"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
