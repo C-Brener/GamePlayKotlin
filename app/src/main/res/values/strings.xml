@@ -27,4 +27,5 @@
     <string name="schedule">Agendar partida</string>
     <string name="category">Categoria</string>
     <string name="select_server">Selecione um servidor</string>
+    <string name="splashscreen">SplashScreen</string>
 </resources>

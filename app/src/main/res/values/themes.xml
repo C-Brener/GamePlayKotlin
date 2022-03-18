@@ -16,4 +16,17 @@
     <style name="StatusBar">
         <item name="android:statusBarColor" tools:targetApi="l">@color/strokes</item>
     </style>
+    <style name="Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/secondary</item>
+        <item name="colorOnPrimary">@color/heading</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <!-- Customize your theme here. -->
+    </style>
 </resources>

@@ -18,9 +18,6 @@ class ScheduleMatchesActivity : AppCompatActivity() {
             val intent = Intent(this, HelloPlayer::class.java)
             startActivity(intent)
         }
-        val testeFragment = ListGamesDialogFragment()
-        binding.buttonTest.setOnClickListener {
-            testeFragment.show(supportFragmentManager,"ShowTag")
-        }
+
     }
 }
